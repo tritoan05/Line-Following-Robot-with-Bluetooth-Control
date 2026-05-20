@@ -12,7 +12,7 @@ Power is supplied from the battery pack to the L298N motor drivers first.
 The L298N module then provides 5V/GND to power the STM32 board.  
 All modules share a common ground.
 
-
+```
 flowchart TD
     BAT[Battery Pack<br>Li-ion / AA<br>9V - 12V]
 
